@@ -1,0 +1,225 @@
+@fonts: 16px;
+#apps {
+  body {
+    font-family: SimHei, 'Helvetica Neue', Arial, 'Droid Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    background: #ffffff !important;
+  }
+  .notSend {
+    color: #10a54a !important;
+  }
+  .bgc{
+    position: relative;
+    .statusImg{
+      position: absolute;
+      /*z-index: -100;*/
+      right: 23%;
+      bottom: 5.5%;
+      width: 15%;
+    }
+  }
+  a, a.link {
+    color: #666;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  a, a.link:hover {
+    color: #666;
+  }
+  h1, h2, h3, h4, h5, h6, p {
+    font-weight: normal;
+    margin: 0;
+  }
+  .balance-main {
+    display: inline-block;
+    width: 95%;
+    border-radius: 5px;
+    background: url('../../../static/images/bg01.jpg') no-repeat;
+    //background: url("../../../static/images/bg01.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 25px 0 !important;
+    margin:0 auto;
+    margin: 20px 0;
+    margin-top: 5px !important;
+    .balance-main-title {
+      width: 100%;
+      color: #fff;
+      font-size: 24px;
+      text-align: center;
+      height: auto;
+      h2 {
+        font-size: 1.8rem;
+        span {
+          display: inline-block;
+          font-size: 70% !important;
+          font-weight: bold;
+        }
+      }
+      p {
+        color: #fff;
+        display: inline-block;
+        width: 100%;
+        font-size: 0.8rem;
+      }
+      .balance-main-details {
+        overflow: hidden;
+        margin-top: 30px;
+        font-size: 0.95rem;
+        color: #fff;
+      }
+    }
+  }
+  .balance-main-con {
+    color: red;
+    .van-cell__title{
+      text-align: left !important;
+      span{
+        display: inline-block;
+        font-size: 1.1rem;
+        color: #333;
+        margin-bottom: 10px;
+      }
+    }
+    .zwxx{
+      //border-top: 1px solid #666;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  }
+
+//  teamList
+  .teamList{
+    .teamList-main{
+      .teamItem{
+        margin: 5px 0;
+        .teamItemH{
+          box-sizing: border-box;
+          display: inline-block;
+          width: 100%;
+          padding: 10px 15px;
+          padding-bottom: 0;
+          margin: 0 auto;
+          overflow: hidden;
+          font-size: 0.9rem;
+          background: #fff;
+          //height: 40px;
+          //line-height: 40px;
+          //border-bottom: 1px solid #eee;
+          .team-size{
+            font-size: 1.2rem;
+          }
+          span{
+            float: left;
+            display: inline-block;
+          }
+          p{
+            display: inline-block;
+            float: right;
+            color: #333;
+          }
+        }
+        .van-cell{
+          display: inline-block;
+          width: 80%;
+          border: none;
+          vertical-align: middle;
+          padding-right: 7px !important;
+        }
+      }
+      .van-cell-group{
+        text-align: left !important;
+      }
+      .van-cell:not(:last-child)::after{
+        margin-left: 0px !important;
+        border-bottom-width: 0px !important;
+      }
+      .van-cell-group{
+        border-width: 0px;
+        .van-cell__title{
+          float: left;
+          width: 70% !important;
+          display: inline-block;
+          text-align: left !important;
+          span{
+            display: inline-block;
+            //font-size: 1.1rem;
+            margin-bottom: 8%;
+            font-size: 0.95rem;
+          }
+        }
+        .van-cell__value{
+          color: #333;
+          display: inline-block;
+          margin-top: 3.5%;
+          float: right;
+          //vertical-align: middle;
+        }
+      }
+      .van-panel__content{
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: top;
+        padding: 7px 0;
+        padding-right: 7px;
+        color: rgba(139, 195, 74, 1);
+      }
+      .errorStatus{
+        color: rgba(229, 28, 35, 1) !important;
+      }
+    }
+  }
+  //bonusDetails 奖金
+  .bonusDetails{
+    .bonusDetails-con{
+      .bonusDetails-item{
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 10px 15px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        line-height: 24px;
+        position: relative;
+        background-color: #fff;
+        color: #333;
+        font-size: 14px;
+        overflow: hidden;
+        .item-left{
+          text-align: left;
+          -webkit-box-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          span{
+            font-size: 1rem;
+            color: #333;
+          }
+          p{
+            font-size: 0.8rem;
+            color: #666666;
+            span{
+              font-size: 0.8rem;
+              color: #666666;
+            }
+          }
+        }
+        .item-right{
+          font-size: 0.8rem;
+          overflow: hidden;
+          text-align: right;
+          position: relative;
+          vertical-align: middle;
+          span{
+            color: #f44;
+          }
+          p{
+            color: #666;
+          }
+        }
+      }
+    }
+  }
+}
+

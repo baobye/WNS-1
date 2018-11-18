@@ -1,0 +1,188 @@
+@fonts: 16px;
+
+@font-face {
+  font-family: 'custom-iconfont';
+  src: url('../../../static/images/icon/1.svg') format('truetype');
+}
+
+.van-icon {
+  font-family: 'team', 'custom-iconfont' !important;
+}
+
+.team-extra:before {
+  content: '\e626';
+}
+h1,h2,h3,h4,h5,h6,h7{
+  margin: 0;
+}
+#app {
+  body {
+    color: #333333;
+    font-family: BlinkMacSystemFont, "Helvetica Neue", Arial, "Microsoft Yahei", "WenQuanYi Micro Hei", "Pingfang SC", sans-serif;
+  }
+  .iconfont-con-yh{
+    overflow: hidden;
+    margin: 2% auto;
+    margin-bottom: 4%;
+    width: 85%;
+  }
+  .card-main {
+    width: 100%;
+    margin: 30px 0;
+    .card-item {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 91%;
+      margin: 0 auto;
+      height: 205px;
+      //border: 1px solid #bbb;
+      padding: 4.9% 4.3%;
+      background: url("../../../static/images/k.jpg") no-repeat;
+      background-size: 100% 100%;
+      border-radius: 8px;
+      ul {
+        width: 100%;
+        height: 100%;
+        li {
+          overflow: hidden;
+          font-size: 0.9rem;
+          .card-title {
+            font-weight: bold;
+            color: #fff;
+            text-align: left;
+          }
+          .card-status {
+            color: #fff;
+            font-weight: bold;
+            //color: rgba(139, 195, 74, 1);
+            text-align: right;
+          }
+        }
+        .card-h {
+          line-height: 80px;
+          p {
+            font-weight: bold;
+            color: #fff;
+            font-size: 1.38rem;
+            //color: #333333;
+            letter-spacing: 0.1rem;
+          }
+        }
+        .card-rank {
+          //text-align: right;
+          color: #fff !important;
+          font-weight: bold;
+          //color: #666666 !important;
+          span {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+  .account-information {
+    margin-top: 10%;
+    text-align: center;
+    overflow: hidden;
+    .account-information-item {
+      display: inline-block;
+      float: none;
+      border-right: 1px solid #ccc;
+      span{
+        font-size: 1rem;
+        display: inline-block;
+        width: 100%;
+        letter-spacing: 0.1rem;
+      }
+      span:nth-last-of-type(1){
+        margin-top: 12px;
+      }
+    }
+    .account-information-item:nth-last-of-type(1){
+      border: none;
+    }
+  }
+  .community-main {
+    .banner-main {
+      img {
+        width: 100%;
+      }
+    }
+    .community-main-menu {
+      .community-main-menu-item {
+        margin: 10px 0;
+        h4 {
+          width: 95%;
+          margin: 0;
+          display: inline-block;
+          text-align: left;
+          margin-left: 6%;
+          margin-bottom: 10px;
+        }
+        span {
+          display: inline-block;
+          width: 100%;
+        }
+      }
+    }
+  }
+  // toPuManin 充值
+  .toUp-main{
+    .toUp-header{
+      margin-top: 7.5%;
+      p{
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+      }
+      h3{
+        margin: 0;
+        font-weight: normal;
+        font-size: 1.45rem;
+        letter-spacing: 1px;
+        color: rgba(229, 28, 35, 1);
+      }
+    }
+    .toUp-con{
+      margin-top: 14%;
+      text-align: left;
+      .toUp-con-zz{
+        .van-cell{
+          border: none !important;
+        }
+      }
+      p{
+        box-sizing: border-box;
+        margin: 0;
+        padding-left: 8.5%;
+        color: #333;
+        margin-bottom: 4.2% !important;
+      }
+      .van-cell{
+        //text-align: center;
+        margin: 0 auto !important;
+        width: 60% !important;
+        border-bottom: 1px solid #ccc;
+      }
+      .toUp-con-btn{
+        display: block;
+        margin: 0 auto;
+        margin-top: 13%;
+        width: 40% !important;
+        background: rgb(86, 119, 252);
+        color: #fff;
+      }
+      .toUp-sm{
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 80%;
+        color: #666;
+        letter-spacing: 1px;
+        line-height: 20px;
+        font-size: 0.75rem;
+      }
+      //.van-icon{
+      //  font-size: 1.5rem !important;
+      //}
+    }
+  }
+}
